@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+}
+
+.Gen {
+    display: flex;
+   /* height: 100%;
+    background: rgb(27, 26, 116); */
+}
+
+
+/* ------ SIDEBAR ------- */
+.Cote {
+    padding: 1%;
+    width: 25%;
+    /*height: 100%;*/
+    margin-bottom: 0;
+    /*margin-top: 0;*/
+    background: #66A7BC;
+}
+
+.Cote img {
+    width: 80%;
+    border-radius: 45em;
+}
+
+.Cote img:hover{
+    border: solid rgb(255, 255, 255) 2px;
+    width: 85%;
+}
+
+.Cote h2, .Cote h3{
+    /*border: solid 1px ;*/
+    border-radius: 30px 0px;
+    padding: 2.5px;
+    background: white;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.Bouton_nav_off, .Bouton_nav_on {
+    width: 80%;
+    padding: 2%;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    /*border: solid rgb(46, 45, 45) 2px;*/
+    border-radius: 30px 0px;
+}
+
+.Bouton_nav_off{
+    background: #F8CDAE;
+}
+
+.Bouton_nav_off:hover{
+    background: rgb(255, 224, 48);
+    /*border: solid rgb(46, 45, 45) 4px;*/
+}
+
+.Bouton_nav_on{
+    background: #EE863C;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1em;
+    color: black;
+    font-weight: bold;
+}
+
+/* ------- MAIN BLOCK --------- */
+
+
+.Centre {
+    width: 100%;
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+   /*background: rgb(218, 97, 97);*/
+}
+
+.Contenu_texte, .Contenu_titre_on, .Contenu_titre_off {
+    border-radius: 30px 0px;
+    font-size: 1em;
+    padding: 0.5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.Contenu_article{
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+}
+
+.Article_Bloc, .Article_Bloc_Centre{
+    border: solid black 1px;
+    border-radius: 30px 0px;
+    margin: 0.8%;
+    padding: 0.8%;
+    width: 50%;
+}
+
+.Article_Bloc_Centre{
+    text-align: center;
+/*    margin-left: auto;
+    margin-right: auto;
+*/}
+
+.Contenu_texte img{
+    width: 200px;
+    height: 100px;
+}
+
+.Contenu_texte h3, .Contenu_texte h4{
+    margin-top: 0.5px;
+    margin-bottom: 0.5px;
+}
+
+.Contenu_texte, .Contenu_titre_off {
+    background: #C9DCE7;
+}
+
+.Contenu_titre_off a{
+    text-decoration: none;
+    color: black;
+}
+
+.Contenu_titre_off:hover{
+    background: rgb(85, 144, 163);
+}
+
+.Contenu_titre_on {
+    background: #52AADB;
+}
+
+
+/* ------- FOOTER --------- */
+
+footer {
+    background: #928EA3;
+  /*    position: relative;
+    bottom: auto;
+  border-radius: 30px 0px 0px 0px;*/
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: 0;
+    margin-top: 3%;
+    align-items: center;
+}
+
+.Cadre_blanc {
+    margin: auto;
+    width: 50%;
+    padding: 1%;
+    background: #FFFFFF;
+    border-radius: 30px 0px;
+}
+
+.Cadre_blanc img{
+    width: 35px;
+    height: 35px;
+}
+
+.Cadre_blanc img:hover{
+    width: 30px;
+    height: 30px;
+}
