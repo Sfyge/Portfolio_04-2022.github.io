@@ -357,7 +357,7 @@ text-align: center;
 
     .Cote h2,
     .Cote h3 {
-        border: solid black 1px;
+        /*border: solid black 1px;*/
         margin: 2px;
         font-size: 14px;
         padding-left: 3%;
@@ -402,6 +402,19 @@ text-align: center;
         margin-top: 3%;
         align-items: center;
     }
+
+    .Cadre_blanc img {
+        width: 25px;
+        height: 25px;
+    }
+    
+    .Cadre_blanc img:hover {
+        width: 20px;
+        height: 20px;
+    }
+
+
+
 }
 /* ------------- RESPONSIVE SIDE BAR ---------------*/
 /*_________________________________________________*/
